@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180AD58F20916C8D00E7FD26 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD58E20916C8D00E7FD26 /* LoginService.swift */; };
+		180AD5922091846700E7FD26 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD5912091846700E7FD26 /* ActivityIndicator.swift */; };
+		180AD5972091AAB500E7FD26 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD5962091AAB500E7FD26 /* BindingExtensions.swift */; };
+		181014B120AD5D210068BA98 /* WriteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181014B020AD5D210068BA98 /* WriteInfoViewController.swift */; };
+		1853288120A1958600C0EC07 /* PreFlightPreparationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288020A1958600C0EC07 /* PreFlightPreparationCell.swift */; };
+		1853288420A195E700C0EC07 /* 通用设置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288320A195E700C0EC07 /* 通用设置.swift */; };
+		1853288620A1961800C0EC07 /* ColorWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288520A1961800C0EC07 /* ColorWithString.swift */; };
+		1861B49D20A56D9F0016F876 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861B49C20A56D9F0016F876 /* Refreshable.swift */; };
+		188DC29620AA6E1D00EF8544 /* LXFViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */; };
+		188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29720AA6F8200EF8544 /* FlightViewModel.swift */; };
+		188DC29A20AAB26B00EF8544 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29920AAB26B00EF8544 /* Response+ObjectMapper.swift */; };
+		189BA6AE209FEB9A009713FD /* NetWorkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BA6AD209FEB9A009713FD /* NetWorkState.swift */; };
+		189BA6B220A03143009713FD /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BA6B120A03143009713FD /* Observable+ObjectMapper.swift */; };
+		18AF602B20946931005583EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF602A20946931005583EE /* User.swift */; };
+		18AF602E20946CBA005583EE /* RealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF602D20946CBA005583EE /* RealmConfiguration.swift */; };
+		18B4DE6720902F32001CDB9A /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6620902F32001CDB9A /* Extension+String.swift */; };
+		18B4DE6A20905EB9001CDB9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6920905EB9001CDB9A /* LoginViewController.swift */; };
+		18B4DE6D209064A0001CDB9A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6C209064A0001CDB9A /* Protocols.swift */; };
+		18B4DE6F20906511001CDB9A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6E20906511001CDB9A /* LoginViewModel.swift */; };
+		18C915D42099635700646978 /* CrewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C915D32099635700646978 /* CrewViewController.swift */; };
+		18C915D62099645C00646978 /* FlightPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C915D52099645C00646978 /* FlightPlanModel.swift */; };
+		18F54780208EFECA00328647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5477F208EFECA00328647 /* AppDelegate.swift */; };
+		18F54782208EFECA00328647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F54781208EFECA00328647 /* ViewController.swift */; };
+		18F54785208EFECA00328647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F54783208EFECA00328647 /* Main.storyboard */; };
+		18F54787208EFECC00328647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F54786208EFECC00328647 /* Assets.xcassets */; };
+		18F5478A208EFECC00328647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F54788208EFECC00328647 /* LaunchScreen.storyboard */; };
+		18F54792208F24CD00328647 /* CrewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F54791208F24CD00328647 /* CrewAPI.swift */; };
+		FC972FD82DA5CFDC9D4BF525 /* Pods_CrewLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42ADF3E9A2927ADB611A5D3 /* Pods_CrewLogger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180AD58E20916C8D00E7FD26 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		180AD5912091846700E7FD26 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		180AD5962091AAB500E7FD26 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		181014B020AD5D210068BA98 /* WriteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteInfoViewController.swift; sourceTree = "<group>"; };
+		1853288020A1958600C0EC07 /* PreFlightPreparationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreFlightPreparationCell.swift; sourceTree = "<group>"; };
+		1853288320A195E700C0EC07 /* 通用设置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "通用设置.swift"; sourceTree = "<group>"; };
+		1853288520A1961800C0EC07 /* ColorWithString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithString.swift; sourceTree = "<group>"; };
+		1861B49C20A56D9F0016F876 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
+		188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewModelType.swift; sourceTree = "<group>"; };
+		188DC29720AA6F8200EF8544 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		188DC29920AAB26B00EF8544 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		189BA6AD209FEB9A009713FD /* NetWorkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkState.swift; sourceTree = "<group>"; };
+		189BA6B120A03143009713FD /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		18AF602A20946931005583EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18AF602D20946CBA005583EE /* RealmConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfiguration.swift; sourceTree = "<group>"; };
+		18B4DE6620902F32001CDB9A /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		18B4DE6920905EB9001CDB9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18B4DE6C209064A0001CDB9A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		18B4DE6E20906511001CDB9A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18C915D32099635700646978 /* CrewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewViewController.swift; sourceTree = "<group>"; };
+		18C915D52099645C00646978 /* FlightPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPlanModel.swift; sourceTree = "<group>"; };
+		18F5477C208EFECA00328647 /* CrewLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrewLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F5477F208EFECA00328647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F54781208EFECA00328647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F54784208EFECA00328647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F54786208EFECC00328647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F54789208EFECC00328647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F5478B208EFECC00328647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F54791208F24CD00328647 /* CrewAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewAPI.swift; sourceTree = "<group>"; };
+		BCFD6CCA144FE8F18B0C80BD /* Pods-CrewLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrewLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		CF13CB1E043F6BABA0FD59BA /* Pods-CrewLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrewLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger.release.xcconfig"; sourceTree = "<group>"; };
+		F42ADF3E9A2927ADB611A5D3 /* Pods_CrewLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrewLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F54779208EFECA00328647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC972FD82DA5CFDC9D4BF525 /* Pods_CrewLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180AD5902091844800E7FD26 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				180AD5962091AAB500E7FD26 /* BindingExtensions.swift */,
+				180AD5912091846700E7FD26 /* ActivityIndicator.swift */,
+				180AD58E20916C8D00E7FD26 /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		181014AC20AD5C640068BA98 /* 填写航班任务 */ = {
+			isa = PBXGroup;
+			children = (
+				181014AF20AD5CEC0068BA98 /* View */,
+				181014AE20AD5CE40068BA98 /* ViewModel */,
+				181014AD20AD5CD40068BA98 /* Controller */,
+			);
+			path = "填写航班任务";
+			sourceTree = "<group>";
+		};
+		181014AD20AD5CD40068BA98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181014B020AD5D210068BA98 /* WriteInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		181014AE20AD5CE40068BA98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		181014AF20AD5CEC0068BA98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1853287C20A1951400C0EC07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C915D52099645C00646978 /* FlightPlanModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1853287D20A1951E00C0EC07 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				188DC29720AA6F8200EF8544 /* FlightViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1853287E20A1952A00C0EC07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18C915D32099635700646978 /* CrewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1853287F20A1953600C0EC07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1853288020A1958600C0EC07 /* PreFlightPreparationCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1861B49B20A56D330016F876 /* 刷新组件 */ = {
+			isa = PBXGroup;
+			children = (
+				1861B49C20A56D9F0016F876 /* Refreshable.swift */,
+			);
+			path = "刷新组件";
+			sourceTree = "<group>";
+		};
+		188DC29420AA6DFE00EF8544 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		189BA6B020A0312B009713FD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1853288520A1961800C0EC07 /* ColorWithString.swift */,
+				18F54791208F24CD00328647 /* CrewAPI.swift */,
+				189BA6B120A03143009713FD /* Observable+ObjectMapper.swift */,
+				1853288320A195E700C0EC07 /* 通用设置.swift */,
+				188DC29920AAB26B00EF8544 /* Response+ObjectMapper.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18AF602820946904005583EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B4DE6C209064A0001CDB9A /* Protocols.swift */,
+				18B4DE6E20906511001CDB9A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18AF602920946918005583EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18AF602A20946931005583EE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AF602C20946C79005583EE /* Realm数据库配置 */ = {
+			isa = PBXGroup;
+			children = (
+				18AF602D20946CBA005583EE /* RealmConfiguration.swift */,
+			);
+			path = "Realm数据库配置";
+			sourceTree = "<group>";
+		};
+		18B4DE6520902F17001CDB9A /* Extension+String */ = {
+			isa = PBXGroup;
+			children = (
+				189BA6AD209FEB9A009713FD /* NetWorkState.swift */,
+				18B4DE6620902F32001CDB9A /* Extension+String.swift */,
+			);
+			path = "Extension+String";
+			sourceTree = "<group>";
+		};
+		18B4DE6820905E90001CDB9A /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				18AF602920946918005583EE /* Model */,
+				18AF602820946904005583EE /* ViewModel */,
+				180AD5902091844800E7FD26 /* Service */,
+				18B4DE6920905EB9001CDB9A /* LoginViewController.swift */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		18C915D22099632600646978 /* 航班信息 */ = {
+			isa = PBXGroup;
+			children = (
+				188DC29420AA6DFE00EF8544 /* Protocol */,
+				1853287F20A1953600C0EC07 /* View */,
+				1853287E20A1952A00C0EC07 /* Controller */,
+				1853287D20A1951E00C0EC07 /* ViewModel */,
+				1853287C20A1951400C0EC07 /* Model */,
+			);
+			path = "航班信息";
+			sourceTree = "<group>";
+		};
+		18F54773208EFECA00328647 = {
+			isa = PBXGroup;
+			children = (
+				18C915D22099632600646978 /* 航班信息 */,
+				181014AC20AD5C640068BA98 /* 填写航班任务 */,
+				1861B49B20A56D330016F876 /* 刷新组件 */,
+				189BA6B020A0312B009713FD /* Tool */,
+				18AF602C20946C79005583EE /* Realm数据库配置 */,
+				18B4DE6820905E90001CDB9A /* 登录 */,
+				18B4DE6520902F17001CDB9A /* Extension+String */,
+				18F5477E208EFECA00328647 /* CrewLogger */,
+				18F5477D208EFECA00328647 /* Products */,
+				3852048518D0AC11DD220C34 /* Pods */,
+				4FED5674D619C48CAA86D116 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F5477D208EFECA00328647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F5477C208EFECA00328647 /* CrewLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F5477E208EFECA00328647 /* CrewLogger */ = {
+			isa = PBXGroup;
+			children = (
+				18F5477F208EFECA00328647 /* AppDelegate.swift */,
+				18F54781208EFECA00328647 /* ViewController.swift */,
+				18F54783208EFECA00328647 /* Main.storyboard */,
+				18F54786208EFECC00328647 /* Assets.xcassets */,
+				18F54788208EFECC00328647 /* LaunchScreen.storyboard */,
+				18F5478B208EFECC00328647 /* Info.plist */,
+			);
+			path = CrewLogger;
+			sourceTree = "<group>";
+		};
+		3852048518D0AC11DD220C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCFD6CCA144FE8F18B0C80BD /* Pods-CrewLogger.debug.xcconfig */,
+				CF13CB1E043F6BABA0FD59BA /* Pods-CrewLogger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FED5674D619C48CAA86D116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42ADF3E9A2927ADB611A5D3 /* Pods_CrewLogger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F5477B208EFECA00328647 /* CrewLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F5478E208EFECC00328647 /* Build configuration list for PBXNativeTarget "CrewLogger" */;
+			buildPhases = (
+				CBA9BB0766D06E396F483FA2 /* [CP] Check Pods Manifest.lock */,
+				18F54778208EFECA00328647 /* Sources */,
+				18F54779208EFECA00328647 /* Frameworks */,
+				18F5477A208EFECA00328647 /* Resources */,
+				C17D4B4A32F263DAB25DBDF6 /* [CP] Embed Pods Frameworks */,
+				57F5B3C110842679D57E7F35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrewLogger;
+			productName = CrewLogger;
+			productReference = 18F5477C208EFECA00328647 /* CrewLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F54774208EFECA00328647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18F5477B208EFECA00328647 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 18F54777208EFECA00328647 /* Build configuration list for PBXProject "CrewLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F54773208EFECA00328647;
+			productRefGroup = 18F5477D208EFECA00328647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F5477B208EFECA00328647 /* CrewLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F5477A208EFECA00328647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F5478A208EFECC00328647 /* LaunchScreen.storyboard in Resources */,
+				18F54787208EFECC00328647 /* Assets.xcassets in Resources */,
+				18F54785208EFECA00328647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F5B3C110842679D57E7F35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17D4B4A32F263DAB25DBDF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA9BB0766D06E396F483FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrewLogger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F54778208EFECA00328647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C915D62099645C00646978 /* FlightPlanModel.swift in Sources */,
+				18C915D42099635700646978 /* CrewViewController.swift in Sources */,
+				181014B120AD5D210068BA98 /* WriteInfoViewController.swift in Sources */,
+				189BA6AE209FEB9A009713FD /* NetWorkState.swift in Sources */,
+				1853288120A1958600C0EC07 /* PreFlightPreparationCell.swift in Sources */,
+				18B4DE6720902F32001CDB9A /* Extension+String.swift in Sources */,
+				18F54782208EFECA00328647 /* ViewController.swift in Sources */,
+				1861B49D20A56D9F0016F876 /* Refreshable.swift in Sources */,
+				189BA6B220A03143009713FD /* Observable+ObjectMapper.swift in Sources */,
+				18F54792208F24CD00328647 /* CrewAPI.swift in Sources */,
+				188DC29620AA6E1D00EF8544 /* LXFViewModelType.swift in Sources */,
+				18B4DE6D209064A0001CDB9A /* Protocols.swift in Sources */,
+				18B4DE6A20905EB9001CDB9A /* LoginViewController.swift in Sources */,
+				1853288420A195E700C0EC07 /* 通用设置.swift in Sources */,
+				1853288620A1961800C0EC07 /* ColorWithString.swift in Sources */,
+				18F54780208EFECA00328647 /* AppDelegate.swift in Sources */,
+				188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */,
+				18B4DE6F20906511001CDB9A /* LoginViewModel.swift in Sources */,
+				18AF602E20946CBA005583EE /* RealmConfiguration.swift in Sources */,
+				18AF602B20946931005583EE /* User.swift in Sources */,
+				188DC29A20AAB26B00EF8544 /* Response+ObjectMapper.swift in Sources */,
+				180AD5922091846700E7FD26 /* ActivityIndicator.swift in Sources */,
+				180AD5972091AAB500E7FD26 /* BindingExtensions.swift in Sources */,
+				180AD58F20916C8D00E7FD26 /* LoginService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F54783208EFECA00328647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F54784208EFECA00328647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F54788208EFECC00328647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F54789208EFECC00328647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F5478C208EFECC00328647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F5478D208EFECC00328647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F5478F208EFECC00328647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFD6CCA144FE8F18B0C80BD /* Pods-CrewLogger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGV2M853;
+				INFOPLIST_FILE = CrewLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSin.CrewLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F54790208EFECC00328647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF13CB1E043F6BABA0FD59BA /* Pods-CrewLogger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGV2M853;
+				INFOPLIST_FILE = CrewLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeSin.CrewLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F54777208EFECA00328647 /* Build configuration list for PBXProject "CrewLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F5478C208EFECC00328647 /* Debug */,
+				18F5478D208EFECC00328647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F5478E208EFECC00328647 /* Build configuration list for PBXNativeTarget "CrewLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F5478F208EFECC00328647 /* Debug */,
+				18F54790208EFECC00328647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F54774208EFECA00328647 /* Project object */;
+}
