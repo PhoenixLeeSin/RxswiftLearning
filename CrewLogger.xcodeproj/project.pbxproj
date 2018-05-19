@@ -15,6 +15,7 @@
 		1853288420A195E700C0EC07 /* 通用设置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288320A195E700C0EC07 /* 通用设置.swift */; };
 		1853288620A1961800C0EC07 /* ColorWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288520A1961800C0EC07 /* ColorWithString.swift */; };
 		1861B49D20A56D9F0016F876 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861B49C20A56D9F0016F876 /* Refreshable.swift */; };
+		186F488A20AEB9EF00637CEB /* WriteInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F488920AEB9EF00637CEB /* WriteInfoViewModel.swift */; };
 		188DC29620AA6E1D00EF8544 /* LXFViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */; };
 		188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29720AA6F8200EF8544 /* FlightViewModel.swift */; };
 		188DC29A20AAB26B00EF8544 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29920AAB26B00EF8544 /* Response+ObjectMapper.swift */; };
@@ -46,6 +47,7 @@
 		1853288320A195E700C0EC07 /* 通用设置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "通用设置.swift"; sourceTree = "<group>"; };
 		1853288520A1961800C0EC07 /* ColorWithString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithString.swift; sourceTree = "<group>"; };
 		1861B49C20A56D9F0016F876 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
+		186F488920AEB9EF00637CEB /* WriteInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteInfoViewModel.swift; sourceTree = "<group>"; };
 		188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewModelType.swift; sourceTree = "<group>"; };
 		188DC29720AA6F8200EF8544 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
 		188DC29920AAB26B00EF8544 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		181014AE20AD5CE40068BA98 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				186F488920AEB9EF00637CEB /* WriteInfoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				1853288420A195E700C0EC07 /* 通用设置.swift in Sources */,
 				1853288620A1961800C0EC07 /* ColorWithString.swift in Sources */,
 				18F54780208EFECA00328647 /* AppDelegate.swift in Sources */,
+				186F488A20AEB9EF00637CEB /* WriteInfoViewModel.swift in Sources */,
 				188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */,
 				18B4DE6F20906511001CDB9A /* LoginViewModel.swift in Sources */,
 				18AF602E20946CBA005583EE /* RealmConfiguration.swift in Sources */,

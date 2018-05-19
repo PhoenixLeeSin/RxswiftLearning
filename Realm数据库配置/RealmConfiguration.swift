@@ -31,4 +31,12 @@ class RealmConfiguration {
         config.fileURL = config.fileURL!.deletingLastPathComponent().appendingPathComponent("Flightplan.realm")
         return config
     }
+    /*
+     配置保存航前准备数据库
+     */
+    func setDefaultRealmForAlterFlightplan()->Realm.Configuration{
+        var config = Realm.Configuration()
+        config.fileURL = config.fileURL?.deletingLastPathComponent().appendingPathComponent("FlightplanAlter.realm")
+        return config
+    }
 }
