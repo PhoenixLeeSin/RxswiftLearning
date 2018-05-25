@@ -15,6 +15,8 @@
 		1853288420A195E700C0EC07 /* 通用设置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288320A195E700C0EC07 /* 通用设置.swift */; };
 		1853288620A1961800C0EC07 /* ColorWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853288520A1961800C0EC07 /* ColorWithString.swift */; };
 		1861B49D20A56D9F0016F876 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861B49C20A56D9F0016F876 /* Refreshable.swift */; };
+		186360E420AFC0F0001C8598 /* PreFlightPreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186360E320AFC0F0001C8598 /* PreFlightPreparationView.swift */; };
+		186360EF20AFC1E4001C8598 /* ButtonWithImageAndTitleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186360EE20AFC1E4001C8598 /* ButtonWithImageAndTitleExtension.swift */; };
 		186F488A20AEB9EF00637CEB /* WriteInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F488920AEB9EF00637CEB /* WriteInfoViewModel.swift */; };
 		188DC29620AA6E1D00EF8544 /* LXFViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */; };
 		188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DC29720AA6F8200EF8544 /* FlightViewModel.swift */; };
@@ -27,6 +29,7 @@
 		18B4DE6A20905EB9001CDB9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6920905EB9001CDB9A /* LoginViewController.swift */; };
 		18B4DE6D209064A0001CDB9A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6C209064A0001CDB9A /* Protocols.swift */; };
 		18B4DE6F20906511001CDB9A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4DE6E20906511001CDB9A /* LoginViewModel.swift */; };
+		18C51E6E20B2B94D003C9260 /* ListExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C51E6D20B2B94D003C9260 /* ListExtensions.swift */; };
 		18C915D42099635700646978 /* CrewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C915D32099635700646978 /* CrewViewController.swift */; };
 		18C915D62099645C00646978 /* FlightPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C915D52099645C00646978 /* FlightPlanModel.swift */; };
 		18F54780208EFECA00328647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5477F208EFECA00328647 /* AppDelegate.swift */; };
@@ -47,6 +50,8 @@
 		1853288320A195E700C0EC07 /* 通用设置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "通用设置.swift"; sourceTree = "<group>"; };
 		1853288520A1961800C0EC07 /* ColorWithString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithString.swift; sourceTree = "<group>"; };
 		1861B49C20A56D9F0016F876 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
+		186360E320AFC0F0001C8598 /* PreFlightPreparationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreFlightPreparationView.swift; sourceTree = "<group>"; };
+		186360EE20AFC1E4001C8598 /* ButtonWithImageAndTitleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithImageAndTitleExtension.swift; sourceTree = "<group>"; };
 		186F488920AEB9EF00637CEB /* WriteInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteInfoViewModel.swift; sourceTree = "<group>"; };
 		188DC29520AA6E1D00EF8544 /* LXFViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewModelType.swift; sourceTree = "<group>"; };
 		188DC29720AA6F8200EF8544 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		18B4DE6920905EB9001CDB9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18B4DE6C209064A0001CDB9A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		18B4DE6E20906511001CDB9A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18C51E6D20B2B94D003C9260 /* ListExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExtensions.swift; sourceTree = "<group>"; };
 		18C915D32099635700646978 /* CrewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewViewController.swift; sourceTree = "<group>"; };
 		18C915D52099645C00646978 /* FlightPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPlanModel.swift; sourceTree = "<group>"; };
 		18F5477C208EFECA00328647 /* CrewLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrewLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +131,9 @@
 		181014AF20AD5CEC0068BA98 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				186360E920AFC126001C8598 /* 总结 */,
+				186360E820AFC11C001C8598 /* 值飞 */,
+				186360E720AFC10B001C8598 /* 航前准备 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +178,28 @@
 			path = "刷新组件";
 			sourceTree = "<group>";
 		};
+		186360E720AFC10B001C8598 /* 航前准备 */ = {
+			isa = PBXGroup;
+			children = (
+				186360E320AFC0F0001C8598 /* PreFlightPreparationView.swift */,
+			);
+			path = "航前准备";
+			sourceTree = "<group>";
+		};
+		186360E820AFC11C001C8598 /* 值飞 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "值飞";
+			sourceTree = "<group>";
+		};
+		186360E920AFC126001C8598 /* 总结 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "总结";
+			sourceTree = "<group>";
+		};
 		188DC29420AA6DFE00EF8544 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +211,7 @@
 		189BA6B020A0312B009713FD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				186360EE20AFC1E4001C8598 /* ButtonWithImageAndTitleExtension.swift */,
 				1853288520A1961800C0EC07 /* ColorWithString.swift */,
 				18F54791208F24CD00328647 /* CrewAPI.swift */,
 				189BA6B120A03143009713FD /* Observable+ObjectMapper.swift */,
@@ -219,6 +251,7 @@
 			children = (
 				189BA6AD209FEB9A009713FD /* NetWorkState.swift */,
 				18B4DE6620902F32001CDB9A /* Extension+String.swift */,
+				18C51E6D20B2B94D003C9260 /* ListExtensions.swift */,
 			);
 			path = "Extension+String";
 			sourceTree = "<group>";
@@ -394,13 +427,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CrewLogger/Pods-CrewLogger-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatedTextInput/AnimatedTextInput.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKGrowingTextView/RSKGrowingTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKPlaceholderTextView/RSKPlaceholderTextView.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -408,18 +442,20 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedTextInput.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKGrowingTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKPlaceholderTextView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -427,6 +463,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +499,7 @@
 				18C915D62099645C00646978 /* FlightPlanModel.swift in Sources */,
 				18C915D42099635700646978 /* CrewViewController.swift in Sources */,
 				181014B120AD5D210068BA98 /* WriteInfoViewController.swift in Sources */,
+				18C51E6E20B2B94D003C9260 /* ListExtensions.swift in Sources */,
 				189BA6AE209FEB9A009713FD /* NetWorkState.swift in Sources */,
 				1853288120A1958600C0EC07 /* PreFlightPreparationCell.swift in Sources */,
 				18B4DE6720902F32001CDB9A /* Extension+String.swift in Sources */,
@@ -477,8 +515,10 @@
 				18F54780208EFECA00328647 /* AppDelegate.swift in Sources */,
 				186F488A20AEB9EF00637CEB /* WriteInfoViewModel.swift in Sources */,
 				188DC29820AA6F8200EF8544 /* FlightViewModel.swift in Sources */,
+				186360E420AFC0F0001C8598 /* PreFlightPreparationView.swift in Sources */,
 				18B4DE6F20906511001CDB9A /* LoginViewModel.swift in Sources */,
 				18AF602E20946CBA005583EE /* RealmConfiguration.swift in Sources */,
+				186360EF20AFC1E4001C8598 /* ButtonWithImageAndTitleExtension.swift in Sources */,
 				18AF602B20946931005583EE /* User.swift in Sources */,
 				188DC29A20AAB26B00EF8544 /* Response+ObjectMapper.swift in Sources */,
 				180AD5922091846700E7FD26 /* ActivityIndicator.swift in Sources */,
@@ -632,10 +672,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGV2M853;
 				INFOPLIST_FILE = CrewLogger/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LeeSin.CrewLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -653,10 +690,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGV2M853;
 				INFOPLIST_FILE = CrewLogger/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LeeSin.CrewLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

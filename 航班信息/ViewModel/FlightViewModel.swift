@@ -64,6 +64,7 @@ extension FlightViewModel:FlightPlanViewModelType{
                         let realm = try! Realm(configuration: RealmConfiguration.shareInstance.setDefaultRealmForFlightplan())                        
                         try! realm.write {
                             for model in modelArr{
+                                
                                 realm.add(model, update: true)
                             }
                         }

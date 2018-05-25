@@ -54,9 +54,9 @@ extension WriteInfoViewModel:FlightPlanViewModelType{
                 output.buttonIsHiddenOrnot.value = hidden
         }else{
             let realm = try! Realm(configuration: RealmConfiguration.shareInstance.setDefaultRealmForFlightplan())
-            let model_realm = realm.object(ofType: FlightPlanModel.self, forPrimaryKey: input.preparationId)
-            self.model_realm.value = model_realm!
-            let hidden = ((model_realm?.isUpdate = 3) != nil) ? true:false
+            let model_realm = realm.objects(FlightPlanModel.self).filter("preparationId = \(input.preparationId)").first!
+            self.model_realm.value = model_realm
+            let hidden = (model_realm.isUpdate == 3 ) ? true:false
                 output.buttonIsHiddenOrnot.value = hidden
         }
         return output

@@ -9,7 +9,6 @@
 import Foundation
 import RealmSwift
 import ObjectMapper
-import ObjectMapper_Realm
 import RxDataSources
 
 
@@ -27,12 +26,12 @@ class FlightPlanModel: Object,Mappable {
     @objc dynamic  var captain:String?    = nil       //机长工号
     @objc dynamic  var h001:String?     = nil           //乘务长工号
     @objc dynamic var h001Name:String?   = nil         //乘务长姓名
-    var  h003:List<h003Model>?           //乘务员3
+    var  h003 = List<h003Model>()           //乘务员3
     @objc dynamic  var is3Certificate:String?  = nil     //3证
     @objc dynamic  var isApperence:String?   = nil    //仪容仪表
     @objc dynamic  var lateList:String?   = nil        //迟到人员列表
     @objc dynamic  var planTime:String?    = nil      //计划时间
-    var crewBack:List<crewBackModel>? //
+    var crewBack = List<crewBackModel>() //
     @objc dynamic  var h003List:String? = nil
     @objc dynamic var flightStatus:String? = nil  //航班状态
     @objc dynamic var  isUpdate:Int = 1  //乘务日志是否填写
@@ -55,12 +54,12 @@ class FlightPlanModel: Object,Mappable {
         captain <- map["captain"]
         h001 <- map["h001"]
         h001Name <- map["h001Name"]
-        h003 <- (map["h003"],ListTransform<h003Model>())
+        h003 <- (map["h003"])
         is3Certificate <- map["is3Certificate"]
         isApperence <- map["isApperence"]
         lateList <- map["lateList"]
         planTime <- map["planTime"]
-        crewBack <- (map["crewBack"],ListTransform<crewBackModel>())
+        crewBack <- (map["crewBack"])
         h003List <- map["h003List"]
         flightStatus <- map["flightStatus"]
         isUpdate <- map["isUpdate"]

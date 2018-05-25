@@ -8,9 +8,10 @@ pod 'Moya/RxSwift'
 pod 'IQKeyboardManagerSwift'
 pod 'RealmSwift'
 pod 'ObjectMapper'
-pod "ObjectMapper+Realm"
-pod 'ObjectMapperAdditions/Realm'
 pod 'ReachabilitySwift'
 pod 'SnapKit'
 pod 'MJRefresh'
+pod 'AnimatedTextInput'
+pod 'RSKGrowingTextView'
+pod 'SVProgressHUD'
 end

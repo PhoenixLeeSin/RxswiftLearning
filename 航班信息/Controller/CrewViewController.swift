@@ -85,6 +85,7 @@ extension CrewViewController{
                 .throttle(1, scheduler: MainScheduler.instance)
                 .subscribe(onNext: { [weak self] _ in
                     let writeVC = WriteInfoViewController()
+                    writeVC.preparationId = item.preparationId
                     self?.navigationController?.pushViewController(writeVC, animated: true)                    
                 })
                 .disposed(by:self.disposeBag)

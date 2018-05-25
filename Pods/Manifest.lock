@@ -1,7 +1,8 @@
 PODS:
   - Alamofire (4.7.2)
+  - AnimatedTextInput (0.5.3)
   - Differentiator (3.0.2)
-  - IQKeyboardManagerSwift (5.0.8)
+  - IQKeyboardManagerSwift (6.0.3)
   - MJRefresh (3.1.15.3)
   - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
@@ -10,15 +11,6 @@ PODS:
     - Moya/Core
     - RxSwift (~> 4.0)
   - ObjectMapper (3.1.0)
-  - ObjectMapper+Realm (0.5):
-    - ObjectMapper
-    - RealmSwift
-  - ObjectMapperAdditions/Core (4.1.0):
-    - ObjectMapper
-  - ObjectMapperAdditions/Realm (4.1.0):
-    - ObjectMapper
-    - ObjectMapperAdditions/Core
-    - RealmSwift
   - ReachabilitySwift (4.1.0)
   - Realm (3.5.0):
     - Realm/Headers (= 3.5.0)
@@ -26,6 +18,9 @@ PODS:
   - RealmSwift (3.5.0):
     - Realm (= 3.5.0)
   - Result (3.2.4)
+  - RSKGrowingTextView (3.0.0):
+    - RSKPlaceholderTextView (= 3.0.0)
+  - RSKPlaceholderTextView (3.0.0)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxDataSources (3.0.2):
@@ -34,39 +29,43 @@ PODS:
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
   - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - AnimatedTextInput
   - IQKeyboardManagerSwift
   - MJRefresh
   - Moya/RxSwift
   - ObjectMapper
-  - ObjectMapper+Realm
-  - ObjectMapperAdditions/Realm
   - ReachabilitySwift
   - RealmSwift
+  - RSKGrowingTextView
   - RxCocoa
   - RxDataSources
   - RxSwift
   - SnapKit
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AnimatedTextInput: 63f51fc2ab329278f715b3219f003031d29854fd
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
-  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
-  ObjectMapper+Realm: 3188789fb77c189c7a83cb625333a607eb61a08f
-  ObjectMapperAdditions: db4243e10ebd9abf7e5e7938e4b0a4bbfd840980
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
   RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RSKGrowingTextView: 6bcc9d4565ce4a66de4b7c42875439bde99dab21
+  RSKPlaceholderTextView: 0ce73a19998e236323b3f1f16bf4a4e4a76c2c28
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 0200798261983bc5889fea8416fe7c31bdf780fa
+PODFILE CHECKSUM: d64a3a77e439986226d31c3a8625262d31d70a23
 
 COCOAPODS: 1.4.0
