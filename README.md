@@ -5,6 +5,12 @@
 ### *rxswift已经出了有一段时间，这个demo记录自己的学习过程，主要通过学习大神们的思想结合自己的练手项目强化知识的记忆，如有纰漏，望多指正\~\~ 联系Q：350541732*
 ### 模型代码
 ````
+import Foundation
+import RealmSwift
+import ObjectMapper
+import RxDataSources
+
+
 class FlightPlanModel: Object,Mappable {
 @objc dynamic var flightId:String? = nil
 @objc dynamic  var preparationId:Int = 1    //行前准备id
@@ -64,11 +70,11 @@ return "preparationId"
 ````
 #### 应该注意的是这里包含着嵌套模型，对于realm来说，暂时还没有解决好这个问题，但我在stockoverflow上发现了一个比较好的答案，详情参考名为“ListExtensions.swift”文件
 ### 填写航班任务 文件夹的主要内容为自定义View与数据的绑定
-[][1]
+[][23]
 ## 路漫漫其修远兮 吾将上下而求索
 
 
 
 
 
-[1]:	https://github.com/350541732/RxswiftLearning.git "Demo地址"
+[23]:	https://github.com/350541732/RxswiftLearning.git "Demo"
